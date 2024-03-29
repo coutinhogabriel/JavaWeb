@@ -4,6 +4,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import webapp.escola_completo.Model.Administrador;
 
-public interface AdministradorRepository extends CrudRepository<Administrador, String> {
-
+public interface AdministradorRepository extends CrudRepository<Administrador, String>{
+    
 }
