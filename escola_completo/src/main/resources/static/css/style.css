@@ -1,32 +1,27 @@
+/* Estilos para o cabeçalho */
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+/* Estilos para o carrossel */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
 }
 
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+/* Estilos para os cards */
+.card {
+    margin-bottom: 20px;
 }
 
-
-nav a:hover {
-    background-color: #555;
+.card-title {
+    color: #333;
+    font-weight: bold;
 }
 
-.acesso{
-    display: flex;
-    justify-content: center;
+.card-text {
+    color: #666;
 }

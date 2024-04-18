@@ -3,9 +3,12 @@ package webapp.escola_completo.Repository;
 import org.springframework.data.repository.CrudRepository;
 
 import webapp.escola_completo.Model.VerificaCadastroAdm;
+import java.util.List;
+
 
 
 
 public interface VerificaCadastroAdmRepository extends CrudRepository<VerificaCadastroAdm, String>{
-    VerificaCadastroAdm findByCpf(String cpf);
+    List<VerificaCadastroAdm> findByCpf(String cpf);
+    boolean existsByCpf (String cpf);
 }
